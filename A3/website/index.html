@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Document</title>
+    <link rel="icon" href="images/logo1.png" type="images/x-icon">
+    <link rel = "stylesheet" href = "css/style.css">
+</head>
+<body>
+    <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="images/logo1.png" alt="Miguel Meirelles Antiques Logo" width="210" height="29" aria-hidden="true" decoding="async">
+            <div class="logo-text">
+                <span class="logo-title">MIGUEL MEIRELLES ANTIQUES</span>
+                <span class="logo-subtitle">Parisian & French Provincial Interiors</span>
+            </div>
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Restorations
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Custom Design
+                        </a>
+                    </li>
+                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            Collection
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Tables</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Mirrors</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Seatings</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Lamps</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Paintings</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+                                                             
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-82">
+    <div class="cs-container">
+        <h1 class="cs-title">Discover the Art of Antiquity</h1>
+        <p class="cs-text">
+            French Antique Furniture Shop in Melbourne, Australia 
+        </p>
+        <a href="" class="cs-button-solid">Explore Now</a>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="images/antiques.jpeg">
+        <source media="(min-width: 601px)" srcset="images/antiques.jpeg">
+        <img decoding="async" src="images/antiques.jpeg" alt="kitchen" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                   Steps                      -->
+<!-- ============================================ -->
+
+<section id="steps-284">
+    <div class="cs-container">
+        <!-- Left Section -->
+        <div class="cs-content">
+            <span class="cs-topper">Our Story</span>
+            <h2 class="cs-title">The Pick of French Antique Shops Melbourne</h2>
+            <p class="cs-text">
+                Opening Hours:<br>Monday-Friday 9am to 5.30pm<br>Saturday 10am to 2pm<br>Sunday CLOSED
+                <br>On Public Holiday hours may vary
+            </p>
+            <a href="" class="cs-button-solid">About Us</a>
+        </div>
+        <!-- Right Section -->
+        <ul class="cs-right-section">
+            <li class="cs-item">
+                <span class="cs-number">01</span>
+                <p class="cs-item-text">
+                    <strong>Knowledge and Passion,</strong> Miguel hand-picks his enourmous range of items, ranging from fine pieces from the area
+                    of Paris, to elegant, and sometimes very rustic furniture from Provincial France. 
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">02</span>
+                <p class="cs-item-text">
+                    <strong>Location,</strong> These French antique pieces are displayed mainly in a 'as-found condition' with full restoration 
+                    and conservation services available at our Malvern premises.
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">03</span>
+                <p class="cs-item-text">
+                    <strong>Miguel Meirelles,</strong> trained as a conservator of antique furniture at the “Istituto per l’Arte e il Restauro” 
+                    in Florence (1978-1980) and today runs his Melbourne antiques retail shop at the same premises as his conservation workshop.
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">04</span>
+                <p class="cs-item-text">
+                    <strong>Collaboration,</strong> Miguel is happy to arrange for short term rentals of his furniture and decorative items to television, film, theatre and advertising studios.
+                    Our Melbourne antique shop can organise packaging, insurance and delivery Australia wide, and also for shipping internationally.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-448">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Gallery</span>
+            <h2 class="cs-title">Stay tuned for exciting new additions to our stock on our website!</h2>
+            <p class="cs-text">
+                Can't find that perfect piece?
+                Ask about our bespoke manufacturing ... 
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-flex">
+                    <picture class="cs-wrapper">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/chair.png" alt="icon" width="70" height="70">
+                    </picture>
+                    <h3 class="cs-h3">Seatings</h3>
+                    <a href="" class="cs-link">See More</a>
+                </div>
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/chair1.jpeg">
+                    <source media="(min-width: 601px)" srcset="images/chair1.jpeg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/chair1.jpeg" alt="leaf" width="345" height="428">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex">
+                    <picture class="cs-wrapper">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/round-table.png" alt="icon" width="70" height="70">
+                    </picture>
+                    <h3 class="cs-h3">Tables</h3>
+                    <a href="" class="cs-link">See More</a>
+                </div>
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/table2.webp">
+                    <source media="(min-width: 601px)" srcset="images/table2.webp">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/table2.webp" alt="grass" width="345" height="428">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex">
+                    <picture class="cs-wrapper">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/mirror.png" alt="icon" width="70" height="70">
+                    </picture>
+                    <h3 class="cs-h3">Mirrors</h3>
+                    <a href="" class="cs-link">See More</a>
+                </div>
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/mirror1.webp">
+                    <source media="(min-width: 601px)" srcset="images/mirror1.webp">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/mirror1.webp" alt="leaves" width="345" height="428">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex">
+                    <picture class="cs-wrapper">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/user.svg" alt="icon" width="70" height="70">
+                    </picture>
+                    <h3 class="cs-h3">Lamps</h3>
+                    <a href="" class="cs-link">See More</a>
+                </div>
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/lamp1.jpeg">
+                    <source media="(min-width: 601px)" srcset="images/lamp1.jpeg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/lamp1.jpeg" alt="leaves" width="345" height="428">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+                                
+<!-- ============================================ -->
+<!--                Contact Form                  -->
+<!-- ============================================ -->
+
+<section id="cs-contact-242">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Here To Help</span>
+            <h2 class="cs-title">Contact Us</h2>
+            <p class="cs-text">
+                Please feel free to reach out to us with any inquiries, especially regarding refunds. We are here to assist you and address any concerns you may have. 
+                Your satisfaction is our priority, and we strive to ensure a seamless experience for all our customers. 
+            </p>
+        </div>
+        <!-- Form -->
+        <form id="cs-form-242" name="Contact Form" method="post">
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-242" name="name" placeholder="John/Jane Doe">
+            </label>
+            <label class="cs-label">
+                Email
+                <input class="cs-input" required type="text" id="email-242" name="email" placeholder="name@company.com">
+            </label>
+            <label class="cs-label">
+                Phone
+                <input class="cs-input" required type="text" id="phone-242" name="phone" placeholder="+1 (206) 987-6543">
+            </label>
+            <label class="cs-label" for="fileElem">
+                Upload Image
+                <div id="drop-area">
+                    <input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)">
+                    <label class="button" for="fileElem">Select some files</label>
+                    <p>or drag and drop files here</p>
+                </div>
+            </label>
+            <label class="cs-label cs-label-message">
+                Message
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-242" placeholder="Hello, I’m interested in..."></textarea>
+            </label>
+            <button class="cs-button-solid cs-submit" type="submit">Submit Message</button>
+        </form>
+        <!-- Contact Info -->
+        <div class="cs-right-section">
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg" alt="mail icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Email</span>
+                        <a href="mailto:support@yourdomain.com" class="cs-link">support@yourdomain.com</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg" alt="phone icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:(03) 9822 6886" class="cs-link">(03) 9822 6886</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin.svg" alt="address icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="" class="cs-link"><span class="cs-block">1379 Malvern Road</span> Malvern VIC</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- Google Maps Link -->
+            <a href="https://www.google.com/maps/dir//1377%2F1379+Malvern+Rd,+Malvern+VIC+3144/@-37.8527077,144.9576993,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6ad6420676603d1b:0xf30c01d4635adacd!2m2!1d145.0401003!2d-37.8527364?entry=ttu" target="_blank" rel="noopener noreferrer">
+                <!-- Picture -->
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/map2.png">
+                    <source media="(min-width: 601px)" srcset="images/map2.png">
+                    <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="images/map2.png" alt="google map" width="450" height="420">
+                </picture>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!--                   
+    This is a cs-content section that you can swap out with any cs-content you have in your site that is not a Side By Side. 
+-->
+
+<div id="cs-content-831">
+    <span class="cs-topper">Testimonials</span>
+    <h2 class="cs-title">Trusted by Thousands of People & Companies</h2>
+    <div id="testimonials">
+        <div class="testimonial" onclick="zoomTestimonial(this)">
+            <div class="testimonial-content">
+                <p class="testimonial-quote">"I've been a regular at Miguel Meirelles Antiques for years, and every visit brings something new and exciting. The quality and authenticity of their French antiques are unmatched in Melbourne. Every piece tells a story, and the staff are always eager to share it."</p>
+                <p class="testimonial-author">Sophie T., <span class="testimonial-title">Melbourne, Australia</span></p>
+            </div>
+        </div>
+    </div>
+        <div class="testimonial" onclick="zoomTestimonial(this)">
+            <div class="testimonial-content">
+                <p class="testimonial-quote">"The collection at Miguel Meirelles Antiques is carefully curated, reflecting true craftsmanship and historical significance. Their pieces perfectly accentuate my home with a touch of elegance."</p>
+                <p class="testimonial-author">Ethan M., <span class="testimonial-title">Sydney, Australia</span></p>
+            </div>
+        </div>                        
+                                
+
+<!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
+
+<footer id="footer-1390">
+    <div class="cs-container">
+        <div class="cs-top">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/agency-logo.svg" alt="logo" width="209" height="40">
+            </a>
+        </div>
+        <div class="cs-bottom">
+            <!--Social-->
+            <ul class="cs-social">
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+            <span class="cs-copyright">
+                MIGUEL MEIRELLES ANTIQUES © 2024 - <a href="" class="cs-copyright-link">OpenCart</a>
+            </span>
+            <div class="cs-flex">
+                <a href="" class="cs-copyright-link">Privacy Policy</a>
+                <span class="cs-separater">|</span>
+                <a href="" class="cs-copyright-link">Terms of Use</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>                                                  
+</body>
+</html>
